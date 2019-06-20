@@ -1,0 +1,80 @@
+/* The style for navbar itself
+Luuk van Bilsen(1265202) &  Danielle Gillam (1227637)
+*/
+html {
+    overflow-y: scroll;
+    font-family: barlow-extralight, barlow, sans-serif;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 1.5%;
+  padding-left: 33%;
+  padding-top: 0;
+  overflow: hidden;
+  background: rgba(204, 204, 204, 0.0);
+  position: relative;
+}
+
+.groupname {
+  font-size: 25px;
+  padding-left: 10%;
+  padding-top: 2%;
+  position: absolute;
+}
+
+li {
+  position: relative;
+  top: 7%;
+  transform: translateY(70%);
+  float: left;
+  margin: 3%;
+  padding-left: 1%;
+}
+
+a:hover {
+  color: darkgray;
+}
+
+a{
+  padding-top: 11%;
+  text-align: right;
+}
+
+li a {
+  display: block;
+  color: #605E5E;
+  font-size: 14px;
+  text-align: center;
+  padding: 2px 25px;
+  text-decoration: none;
+  position: relative;
+}
+
+.btnhelp{
+  border: none;
+  background-color: inherit;
+  padding: 0 25px;
+  font-size: 14px;
+  color: #605E5E;
+  cursor: pointer;
+  display: block;
+  text-align: right;
+}
+
+.uploadbtnhelp:hover {color: darkgray;
+}
+
+.btnhelp{
+  border: none;
+  background-color: inherit;
+  padding: 0 25px;
+  font-size: 14px;
+  color: #605E5E;
+  cursor: pointer;
+  display: block;
+  text-align: right;
+}
+
+.btnhelp:hover {color: darkgray;
+}
